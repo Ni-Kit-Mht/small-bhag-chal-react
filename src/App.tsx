@@ -14,9 +14,9 @@ function App() {
         {/* Define the routes */}
         <Routes>
           <Route path="/small-bhag-chal-react" element={<Menu />} /> {/* Menu Screen */}
-          <Route path="/game" element={<Game />} /> {/* Game Screen */}
-          <Route path="/settings" element={<Settings />} /> {/* Settings Screen */}
-          <Route path="/gameContinue" element = {<GameContinue /> } /> {/* Game Contunue Screen */}
+          <Route path="/small-bhag-chal-react/game" element={<Game />} /> {/* Game Screen */}
+          <Route path="/small-bhag-chal-react/settings" element={<Settings />} /> {/* Settings Screen */}
+          <Route path="/small-bhag-chal-react/gameContinue" element = {<GameContinue /> } /> {/* Game Contunue Screen */}
         </Routes>
       </div>
     </Router>
