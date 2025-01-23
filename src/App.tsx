@@ -13,7 +13,7 @@ function App() {
       <div className="App">
         {/* Define the routes */}
         <Routes>
-          <Route path="/" element={<Menu />} /> {/* Menu Screen */}
+          <Route path="/small-bhag-chal-react" element={<Menu />} /> {/* Menu Screen */}
           <Route path="/game" element={<Game />} /> {/* Game Screen */}
           <Route path="/settings" element={<Settings />} /> {/* Settings Screen */}
           <Route path="/gameContinue" element = {<GameContinue /> } /> {/* Game Contunue Screen */}
